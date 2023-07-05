@@ -5,7 +5,7 @@ import Zoom from 'react-reveal/Zoom';
 import TypeWriter from '../Pages/Font/Textanimation'
 // import Reveal from 'react-reveal/Reveal';
 
-const typeWriter = ["WEB DEVELOPER", "MERN STACK DEVELOPER", "FRONT-END DEVELOPER"];
+const typeWriter = ["FRONT-END DEVELOPER","WEB DEVELOPER", "MERN STACK DEVELOPER", "REACTJS DEVELOPER"];
 const Home = () => {
     return (
        
@@ -14,7 +14,7 @@ const Home = () => {
                 {/* left -section */}
           <div className='container-text'>
               <span>WELCOME TO MY WORLD</span>
-                    <h1>Hi,I’m Dinesh R  <TypeWriter data={typeWriter} /></h1>
+                    <h1>Hi,I’m Dinesh R  <br /> <TypeWriter data={typeWriter} /></h1>
                    
                     
               <p >I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>

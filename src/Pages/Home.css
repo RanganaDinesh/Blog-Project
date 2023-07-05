@@ -4,7 +4,7 @@ width: 650px;
 }
 
 #section-container{
-   
+  z-index: -2 ;
  display: flex;
  padding: 200px;
 }
@@ -23,6 +23,7 @@ p{
 .profile-pic{
     margin-left: 200px;
     border-radius:10px;
+   
     width: 450px;
     height: 450px;
     box-shadow: 0px 0px 10px rgb(112, 110, 110);
@@ -67,7 +68,7 @@ h1 {
   }
   
   h1 {
-    padding: 64px;
+    /* padding: 64px; */
     background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
