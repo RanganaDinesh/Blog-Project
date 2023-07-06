@@ -13,7 +13,7 @@ const Skills = () => {
                       <img src="" alt="" />
                       <div className='btn-hide'>
                       <Button variant="contained" disableElevation style={{backgroundColor:'black'}}  id='cart-btn'>
-                     ADD CART <span className='arrow'> &nbsp;  &#10140;</span>
+                     ADD CART <span className='arrow'> &nbsp; &#10140;</span>
                           </Button>
                           </div>
 
