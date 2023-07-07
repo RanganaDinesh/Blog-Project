@@ -27,7 +27,7 @@ marquee{
     display: flex;
 }
 .project-title{
-   
+   margin-top: -200px;
     font-family: system-ui;
     font-size: 35px;
     text-shadow: 0px 0px 5px rgb(116, 115, 115);
@@ -70,6 +70,9 @@ marquee{
    
    .btn-view{
     margin: 70px 0px 0px 50px;
+   }
+   .project-title{
+    margin-top: 50px;
    }
     .img-view{
         width: 250px ;

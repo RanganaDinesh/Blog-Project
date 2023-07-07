@@ -1,8 +1,9 @@
 import React from 'react'
-import profile from ' ../../../public/Picsart_23-07-04_17-12-15-109.jpg'
+import profile from '../pic.jpg'
 import './Home.css'
 import Fade from 'react-reveal/Fade';
 import TypeWriter from '../Pages/Font/Textanimation'
+import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 
 const typeWriter = ["FRONT-END DEVELOPER","WEB DEVELOPER", "MERN STACK DEVELOPER", "REACTJS DEVELOPER"];
@@ -19,18 +20,45 @@ const Home = () => {
                 <span>WELCOME TO MY WORLD</span>
                 <h1>Hi,I’m Dinesh RANGANA  <br /> <TypeWriter data={typeWriter} /></h1>
 
-                <p >I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                <p className='content-p' >I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
                 </div>
             </Fade>
                 <Fade bottom>
               <div>
                   <span>FIND WITH ME</span>
                         <div>
-                        <div className='conatct-icons'>
-                            <div className='box-icon box1'><i class="fa fa-google"></i></div>
-                            <div className='box-icon box2'><a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a></div>
-                            <div className='box-icon box3'><a href="https://github.com/RanganaDinesh" class="fa fa-github"></a></div>
-                        </div>
+                            <div className='conatct-icons'>
+                          
+<a class="btn btn-primary" style={{backgroundColor:'#333333'}} href="https://github.com/RanganaDinesh" role="button"
+  ><i class="fab fa-github"></i
+></a>
+
+
+<a class="btn btn-primary"  style={{backgroundColor: '#55acee'}} href="https://github.com/RanganaDinesh" role="button"
+  ><i class="fab fa-twitter"></i
+></a>
+
+
+<a class="btn btn-primary"  style={{backgroundColor:'#dd4b39'}} href="https://www.linkedin.com/feed/" role="button"
+  ><i class="fab fa-google"></i
+></a>
+
+
+<a class="btn btn-primary"  style={{backgroundColor: '#ac2bac'}} href="https://www.linkedin.com/feed/" role="button"
+  ><i class="fab fa-instagram"></i
+></a>
+
+
+<a class="btn btn-primary"  style={{backgroundColor: '#0082ca'}} href="https://www.linkedin.com/feed/" role="button"
+  ><i class="fab fa-linkedin-in"></i
+></a>
+
+                            
+                            </div>
+                            <span>Download CV &nbsp; </span>
+                            <MDBBtn floating tag='a'>
+      <MDBIcon fas icon='download' />
+    </MDBBtn>
                       
                   </div>
                         </div>
@@ -41,14 +69,39 @@ const Home = () => {
                 <div>
                 <Fade bottom>
               <div className='frame'>
-                        <img src={profile} alt="" className='profile-pic' />
-                        <div  className='profile-pic1'></div>
+                        <img src={profile} alt="" className='profile-pic' /> <br />
+                       
+                        <div className='profile-pic1'></div>
+                       
                       
                     </div>
+                    <h1 className='dinu'>Dinesh </h1>
                     <div className='conatct-icons  hideicons' >
-                            <div className='box-icon box1'><i class="fa fa-google"></i></div>
-                            <div className='box-icon box2'><a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a></div>
-                            <div className='box-icon box3'><a href="https://github.com/RanganaDinesh" class="fa fa-github"></a></div>
+                                        
+<a class="btn btn-primary" style={{backgroundColor:'#333333'}} href="https://github.com/RanganaDinesh" role="button"
+  ><i class="fab fa-github"></i
+></a>
+
+
+<a class="btn btn-primary"  style={{backgroundColor: '#55acee'}} href="https://github.com/RanganaDinesh" role="button"
+  ><i class="fab fa-twitter"></i
+></a>
+
+
+<a class="btn btn-primary"  style={{backgroundColor:'#dd4b39'}} href="https://www.linkedin.com/feed/" role="button"
+  ><i class="fab fa-google"></i
+></a>
+
+
+<a class="btn btn-primary"  style={{backgroundColor: '#ac2bac'}} href="https://www.linkedin.com/feed/" role="button"
+  ><i class="fab fa-instagram"></i
+></a>
+
+
+<a class="btn btn-primary"  style={{backgroundColor: '#0082ca'}} href="https://www.linkedin.com/feed/" role="button"
+  ><i class="fab fa-linkedin-in"></i
+></a>
+
                         </div>
                         </Fade>
                 </div>

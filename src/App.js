@@ -3,6 +3,7 @@ import './App.css'
 import Home from "./Pages/Home";
 import Showcase from "./Pages/Project/Showcase";
 import Skills from "./Pages/Skillset/Skills";
+import Techs from "./Pages/Techs/Techs";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Navbar />
       <Home/>
       <Showcase />
-      <Skills/>
+      <Skills />
+      <Techs/>
     </div>
   );
 }

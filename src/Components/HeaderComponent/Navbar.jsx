@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-scroll";
 import './Navbar.css'
-import profile from ' ../../../public/Picsart_23-07-04_17-12-15-109.jpg'
+import profile from '../../pic.jpg'
 
 
 
@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className='nav-container'>
           {/* left */}
           <div className='nav-icon' >
-              <h2 id='name-profile'>Dinesh R</h2>
+              <h3 id='name-profile'>Dinesh R</h3>
               <img src={profile} alt="profile" className='nav-profile'/>
           </div>
            {/* right */}
