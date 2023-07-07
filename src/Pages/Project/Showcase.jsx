@@ -58,7 +58,7 @@ const Showcase = () => {
                       <div className='showcase-set'>
                          <img src={image} alt="" className='img-view' />
                           <div className='btn-view'>
-                              <a href="https://sparkly-sable-e2ee8b.netlify.app/Bollywood">
+                              <a href="https://sparkly-sable-e2ee8b.netlify.app/">
                         <Button variant="contained" disableElevation className='web-btn'>
                        WEB VIEW <span className='arrow'> &nbsp;  &#10140;</span>
                                   </Button>

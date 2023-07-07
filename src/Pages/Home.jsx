@@ -13,7 +13,7 @@ const Home = () => {
 
  
     return (
-       
+       <>
         <div id='section-container'>
             
             {/* left -section */}
@@ -113,7 +113,7 @@ const Home = () => {
           
       
             </div>
-           
+            </>        
   )
 }
 
