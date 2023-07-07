@@ -86,10 +86,11 @@ marquee{
     .showcase-set{
         width: 250px ;
         height: 200px;
+      
 
     }
     .showcase-container{
-        margin-left: 50px;
+        margin-left: 20px;
         padding: 0px;
         margin-top: 90px;
       

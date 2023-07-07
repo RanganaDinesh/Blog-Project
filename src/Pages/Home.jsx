@@ -6,8 +6,12 @@ import TypeWriter from '../Pages/Font/Textanimation'
 import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 
+
 const typeWriter = ["FRONT-END DEVELOPER","WEB DEVELOPER", "MERN STACK DEVELOPER", "REACTJS DEVELOPER"];
 const Home = () => {
+  const pdfUrl = 'https://github.com/RanganaDinesh/Blog-Project/raw/main/src/Pages/dineshcv.pdf';
+
+ 
     return (
        
         <div id='section-container'>
@@ -56,9 +60,9 @@ const Home = () => {
                             
                             </div>
                             <span>Download CV &nbsp; </span>
-                            <MDBBtn floating tag='a'>
+                       <a href={pdfUrl}   download>     <MDBBtn floating tag='a'>
       <MDBIcon fas icon='download' />
-    </MDBBtn>
+    </MDBBtn></a>
                       
                   </div>
                         </div>
