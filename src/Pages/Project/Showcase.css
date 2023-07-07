@@ -81,18 +81,18 @@ marquee{
     .showcase-set1{
         width: 250px ;
         height: 200px;
-
+        margin-left: 55px;
     }
     .showcase-set{
         width: 250px ;
         height: 200px;
-      
+        margin-left: 40px;
 
     }
     .showcase-container{
-        margin-left: 20px;
+      
         padding: 0px;
-        margin-top: 90px;
+        margin-top: 30px;
       
     }
 }
