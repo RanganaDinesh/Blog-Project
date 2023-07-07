@@ -24,7 +24,7 @@ const Home = () => {
                 <span>WELCOME TO MY WORLD</span>
                 <h1>Hi,I’m Dinesh RANGANA  <br /> <TypeWriter data={typeWriter} /></h1>
 
-                <p className='content-p' >I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                <p className='content-p' >I have always been interested in web development, and I have the necessary skills required for the role. I have a good understanding of HTML, CSS, JavaScript, and REACT.JS. I am currently improving my mobile app development skills by learning various new technologies.</p>
                 </div>
             </Fade>
                 <Fade bottom>
