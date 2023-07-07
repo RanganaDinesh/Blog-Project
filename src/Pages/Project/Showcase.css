@@ -49,11 +49,7 @@ marquee{
     font-weight: 400px;
     font-size: 20px;
 }
-.web-btn:hover{
 
- transition: 0.5s;
- 
-}
 .img-view:hover{
     opacity:1;
 }
