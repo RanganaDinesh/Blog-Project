@@ -73,7 +73,7 @@ const Showcase = () => {
                       
              
           </div>
-          {/* <marquee behavior="scroll"  width="100%" direction="right" scrollamount="15">
+          <marquee behavior="scroll"  width="100%" direction="right" scrollamount="15">
               <ul type='none' className='skills'>
                
                 <li>  <i class="fa fa-check-circle" style={{color:'green'}}><span style={{color:'black'}}> &nbsp;  MONGODB</span></i></li>
@@ -95,7 +95,7 @@ const Showcase = () => {
                 <li>  <i class="fa fa-check-circle" style={{color:'green'}}><span style={{color:'black'}}> &nbsp; CSS 3</span></i></li>
                 <li>  <i class="fa fa-check-circle" style={{color:'green'}}><span style={{color:'black'}}> &nbsp; HTML 5</span></i></li>
               </ul>
-          </marquee> */}
+          </marquee>
       </>
   )
 }
